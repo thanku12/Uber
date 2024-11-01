@@ -1,0 +1,277 @@
+[10:49 PM, 10/13/2024] Aditya AWS Cloud: *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    margin-left:10em;
+}
+.nav-left a {
+    padding:0 12px;
+    text-decoration: none; 
+    color:#ffffff;  
+}
+
+.nav-right {
+    position:relative;
+    right:0;
+    margin-right: 10em;
+}
+.nav-right a {
+    padding:0 12px;
+    text-decoration: none; 
+    color:#ffffff;  
+}
+
+.inputbox{
+    width:20rem;
+    height:3rem;
+    color:white;
+    background-color: rgb(255, 255, 255);
+    padding:10px 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+header{
+    background-color: black;
+}
+
+.section1 {
+    display:flex;
+    flex-direction: row;
+    padding:5rem;
+    justify-content:space-between;
+    margin-left: 10em;
+    margin-right:8em;
+    color:#ffffff;
+}
+
+.section1 h1{
+    font-size: 4rem;
+}
+
+.img1 {
+    width:30rem;
+}
+.img2 {
+    width:30rem;
+}
+.img3 {
+    width:30rem;
+    margin-right:10em;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    color:#ffffff;
+    margin-left:3em;
+    top:1.2em;
+
+}
+
+.log-sec {
+    position:relative;
+    left:0em;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    padding:0rem;
+    padding-top: 8rem;
+    
+
+}
+
+.car-cards { 
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+    border-radius: 1.5rem;
+    padding-left:1rem;
+}
+
+.b{
+    background-color: #ffffff;
+    border-radius:1rem;
+    padding:.2rem 1rem .2rem 1rem;
+    margin-top:5px;
+}
+
+.cars-section {
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:5em;
+    margin-right:5em;
+    margin-top: 4em;
+}
+
+.card-1 {
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:5em;
+    margin-top: 20em;
+}
+
+.card-2 {
+    display: flex;
+    position:relative;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left:5em;
+    margin-top: 10em;
+}
+
+.button{
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 5px;
+    padding:.5rem 1rem .5rem 1rem;
+
+}
+
+.QR-card {
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(255, 255, 255);
+    position:absolute;
+    padding:1rem;
+}
+
+.QR-section {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /* padding-left: 10em;
+    padding-right: 10em; */
+    padding:1em 10em  5em 10em;
+
+}
+
+.icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2em 0 2em 2em;
+}
+
+.social-icons {
+    position: relative;
+    left:0;
+}
+
+.foot{
+    background-color:#000000;
+    padding:2em 2em 2em 2em;
+}
+
+.foot-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0.5em 0 0.5em 0;
+    margin:0 3em 0 0;
+    text-decoration: none;
+    color:#ffffff;
+}
+li {
+    padding:1rem 0 0 0;
+    color:#ffffff;
+    text-decoration: none;
+}
+li a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.icons a i {
+    padding:0 0 0 6em;
+
+}
+
+.lang{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang .button {
+    padding:0 8rem 0 0.5rem;
+}
+
+.footer-content {
+    background-color: whitesmoke;
+    padding:3em 3em 3em 10em;
+}
+
+.foot-title h4{
+    color:#ffffff;
+    padding:1em 0 2em 5.5em;
+}
+
+.foot-title p{
+    color:#ffffff;
+    padding:0 0 2em 8em;
+}
+
+.foot-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 6em 0 6em;
+}
+
+.foot-options span {
+    font-size: 1.5em;
+}
+
+.foot-images{
+    padding:0 0 0 7em;
+}
+.foot-images img{
+    padding:0 0 0 1em;
+}
+
+.foot-last{
+    display:flex;
+    justify-content: space-between;
+    padding:2em 8em 0 8em;
+}
+
+.foot-last span {
+    color:#ffffff;
+}
+
+.foot-last-2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foot-last-2 li a {
+    padding-right:2em;
+}
